@@ -63,7 +63,7 @@ public class Game extends JPanel {
         scoreLabel.setBounds(100,200,400,100);
         scoreLabel.setFont(new Font("Arial", Font.PLAIN, 40));
         scoreLabel.setForeground(Color.yellow);
-        movesLeft = 2;
+        movesLeft = 20;
         mLeft = new JLabel("Moves left: "+movesLeft);
         mLeft.setBounds(850,200,400,100);
         mLeft.setOpaque(false);
